@@ -1,0 +1,25 @@
+{
+  "name": "vtkviewer",
+  "version": "0.1.0",
+  "description": "vtk viewer trial",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sanderegg/vtkviewer.git"
+  },
+  "author": "sanderegg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanderegg/vtkviewer/issues"
+  },
+  "homepage": "https://github.com/sanderegg/vtkviewer#readme",
+  "dependencies": {
+    "vtk.js": "^7.3.2"
+  },
+  "devDependencies": {
+    "kw-web-suite": "^6.2.0"
+  }
+}
