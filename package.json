@@ -4,7 +4,13 @@
   "description": "vtk viewer trial",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors --mode development",
+    "build:release": "webpack --progress --colors --mode production",
+    "start": "webpack-dev-server --content-base ./dist",
+
+    "commit": "git cz",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
