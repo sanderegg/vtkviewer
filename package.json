@@ -1,0 +1,31 @@
+{
+  "name": "test-vtkviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors --mode development",
+    "build:release": "webpack --progress --colors --mode production",
+    "start": "webpack-dev-server --content-base ./dist",
+
+    "commit": "git cz",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanderegg/vtkviewer.git"
+  },
+  "author": "sanderegg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanderegg/vtkviewer/issues"
+  },
+  "homepage": "https://github.com/sanderegg/vtkviewer#readme",
+  "dependencies": {
+    "vtk.js": "^7.3.2"
+  },
+  "devDependencies": {
+    "kw-web-suite": "^6.2.0"
+  }
+}
