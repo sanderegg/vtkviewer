@@ -26,6 +26,6 @@
     "vtk.js": "^7.3.2"
   },
   "devDependencies": {
-    "kw-web-suite": "^6.2.0"
+    "kw-web-suite": "^11.1.0"
   }
 }
